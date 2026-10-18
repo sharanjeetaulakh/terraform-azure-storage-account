@@ -1,4 +1,4 @@
-data "azurerm_storage_account" "existing" {
+data "azurerm_storage_account" "storage_account" {
   name                = "stlmsidndev001"
   resource_group_name = "rg-lms-idn-dev-01"
 }
